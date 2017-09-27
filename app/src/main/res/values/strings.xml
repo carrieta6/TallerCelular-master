@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">TallerCelular</string>
+    <string name="Titulo">Celulares</string>
+    <array name="Opciones">
+        <item>@string/crear</item>
+        <item>@string/reportear</item>
+    </array>
+    <string name="crear">Crear</string>
+    <string name="reportear">Reportear</string>
+    <string name="agregar">Agregar</string>
+    <string name="marca">Seleccione la marca del celular</string>
+    <string name="capacidadRam">Seleccione la capacidad de la memoria ram</string>
+    <string name="color">Seleccione el color del celular</string>
+    <string name="sistemaOperativo">Seleccione el sistema operativo del celular</string>
+    <string-array name="spiMarca">
+        <item>@string/nokia</item>
+        <item>@string/apple</item>
+        <item>@string/samsung</item>
+        <item>@string/huawei</item>
+    </string-array>
+    <string-array name="spiCapacityRam">
+        <item>@string/dosgb</item>
+        <item>@string/cuatroGB</item>
+        <item>@string/ochoGB</item>
+        <item>@string/dieciseisGB</item>
+    </string-array>
+    <string-array name="spiColor">
+        <item>@string/negro</item>
+        <item>@string/blanco</item>
+    </string-array>
+    <string-array name="spiSO">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+        <item>@string/windows</item>
+    </string-array>
+    <string name="nokia">NOKIA</string>
+    <string name="apple">APPLE</string>
+    <string name="samsung">SAMSUNG</string>
+    <string name="huawei">HUAWEI</string>
+    <string name="dosgb">2GB</string>
+    <string name="cuatroGB">4GB</string>
+    <string name="ochoGB">8GB</string>
+    <string name="dieciseisGB">16GB</string>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="windows">Windows</string>
+    <string name="guardar">Guardar</string>
+    <string name="valor">Digite el valor</string>
+    <string name="mensaje_error_uno">Debe ingresar un valor valido</string>
+    <string name="marca1">Marca</string>
+    <string name="capacidad1">Capacidad</string>
+    <string name="color1">Color</string>
+    <string name="sistemO1">SO</string>
+    <string name="valor1">Valor</string>
+    <string name="item">Item</string>
+</resources>
