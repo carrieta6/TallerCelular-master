@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">TallerCelular</string>
     <string name="Titulo">Celulares</string>
+    <string name="reporte1">Reporte1</string>
+    <string name="reporte2">Reporte2</string>
+    <string name="reporte3">Reporte3</string>
     <array name="Opciones">
         <item>@string/crear</item>
         <item>@string/reportear</item>
+    </array>
+    <array name="OpcionesReportes">
+        <item>@string/reporte1</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte3</item>
     </array>
     <string name="crear">Crear</string>
     <string name="reportear">Reportear</string>
@@ -40,7 +48,7 @@
     <string name="dosgb">2GB</string>
     <string name="cuatroGB">4GB</string>
     <string name="ochoGB">8GB</string>
-    <string name="dieciseisGB">16GB</string>
+    <string name="dieciseisGB">3GB</string>
     <string name="negro">Negro</string>
     <string name="blanco">Blanco</string>
     <string name="android">Android</string>

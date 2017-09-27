@@ -13,7 +13,7 @@
     <string name="color">Select the cell phone color</string>
     <string name="color1">Color</string>
     <string name="cuatroGB">4GB</string>
-    <string name="dieciseisGB">16GB</string>
+    <string name="dieciseisGB">3GB</string>
     <string name="dosgb">2GB</string>
     <string name="guardar">Save</string>
     <string name="huawei">HUAWEI</string>
@@ -31,4 +31,7 @@
     <string name="valor">Type the value</string>
     <string name="valor1">Value</string>
     <string name="windows">Windows</string>
+    <string name="reporte1">Report1</string>
+    <string name="reporte2">Report2</string>
+    <string name="reporte3">Report3</string>
 </resources>

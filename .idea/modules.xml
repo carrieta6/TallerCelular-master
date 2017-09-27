@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TallerCelular.iml" filepath="$PROJECT_DIR$/TallerCelular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TallerCelular-master.iml" filepath="$PROJECT_DIR$/TallerCelular-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
