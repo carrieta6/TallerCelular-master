@@ -3,6 +3,8 @@ package com.celular.android.tallercelular;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -15,12 +17,12 @@ public class Reporte3 extends AppCompatActivity {
         setContentView(R.layout.activity_reporte3);
         tabla=(TableLayout) findViewById(R.id.tabla);
         celular = Datos.obtener();
-        Double price=Double.parseDouble(celular.get(0).getPrecio().toString());;
+        int price=celular.get(0).getValor();;
         int pos=0;
         for (int i = 0; i < celular.size() ; i++) {
 
-            if (price > Double.parseDouble(celular.get(i).getValor()) {
-                price = Double.parseDouble(celular.get(i).getPrecio().toString());
+            if (price > celular.get(i).getValor()) {
+                price = celular.get(i).getValor();
                 pos=i;
             }
         }
@@ -33,11 +35,11 @@ public class Reporte3 extends AppCompatActivity {
             TextView c5 = new TextView(this);
             TextView c6 = new TextView(this);
             c1.setText("" + (pos + 1));
-            c2.setText("" + celular.get(pos).getPrecio());
-            c3.setText("" + celular.get(pos).getRam());
-            c4.setText("" + celular.get(pos).getMarca());
-            c5.setText("" + celular.get(pos).getSo());
-            c6.setText("" + celular.get(pos).getColor());
+            c2.setText(celular.get(pos).getMarca());
+            c3.setText(celular.get(pos).getCapacidadRam());
+            c4.setText(celular.get(pos).getColor());
+            c5.setText(celular.get(pos).getSO());
+            c6.setText(""+celular.get(pos).getValor());
             fila.addView(c1);
             fila.addView(c2);
             fila.addView(c3);
